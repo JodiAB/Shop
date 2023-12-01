@@ -392,6 +392,13 @@ font-size: 12px;
     border: 1px solid #088178;
 }
 
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
 #banner3 .banner-box{
     display: flex;
     flex-direction: column;
@@ -405,7 +412,12 @@ font-size: 12px;
     padding: 20px;
     margin-bottom: 20px;
 }
-
+#banner .banner-box2{
+    background-image: url("img/banner/b4.jpg");
+}
+#banner.banner-box3{
+    background-image: url("img/banner/b18.jpg");
+}
 #banner3 h2{
     color: #fff;
     font-weight: 900;
